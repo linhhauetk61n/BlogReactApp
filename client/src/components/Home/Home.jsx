@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
     Grow,
     Container,
@@ -12,7 +12,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import Posts from "../Posts/Posts";
 import Form from "../Form/Form";
 import useStyles from "./styles";
-import { getPosts, getPostsBySearch } from "../../actions/postActions";
+import { getPostsBySearch } from "../../actions/postActions";
 import { useDispatch } from "react-redux";
 import Paginate from "../Pagination/Pagination";
 import ChipInput from "material-ui-chip-input";
